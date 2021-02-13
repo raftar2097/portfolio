@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+  }
+  body {
+	font-family:sans-serif;
+	margin: 0;
+  }
+  .navbar {
+	display: flex;
+	background-color:#424242;
+	justify-content: space-around;
+	border-bottom: 1px solid #EF5B25;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+	color: white;
+	padding: 25px 25px;
+	text-decoration: none;
+	text-align: center;
+	font-size: larger;
+	font-family: 'Dancing Script', cursive;
+  }
+
+  .row {  
+	color:#EF5B25;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  }
+  
+  .left {
+	color:#424242;
+	flex: 40%;
+	background-color:wheat;
+	padding: 20px;
+  }
+
+  .right {
+	font-family: 'Poppins',sans-serif;
+	flex: 60%;
+	background-color: #424242;
+	padding: 20px;
+  }
+  ul{
+	list-style-type:none;
+  }
+  li h4 {
+	  color:#EF5B25
+  }
+  li{
+	font-family: 'Dancing Script', cursive;
+    font-size: 1rem;
+    font-weight:italic;
+  }
+
+  .right h3{
+	font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    font-weight: italic;
+  }
+
+  footer{
+	  height:100px;
+	  background-color:#EF5B25;
+	  font-family: 'Dancing Script', cursive;
+	  font-size: 1.5rem;
+	  font-weight: italic;
+	  color:wheat;
+	  text-align: center;
+	  line-height: 100px;
+  }
+  #icon{
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-around;
+  }
+  @media screen and (max-width: 600px) {
+	.navbar,.row{   
+	  flex-direction: column;
+	}
+  }
